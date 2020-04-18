@@ -1,0 +1,43 @@
+<!--
+    What needs to be in the front end:
+    - order form to enter the details of an item order
+    - fields of the item order: orderid, itemid, customerid, date ordered, number ordered and shipped date
+    - connect to php application
+    - connect to oracle database
+
+
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+      <title>Movie Reviews</title>
+   </head>
+   <body>
+   
+   <!-- I still need to add in the correct path to the php file -->
+   <form method="post" action="http://linux.students.engr.scu.edu/~sde/FrontEnd.php">
+  <fieldset>
+        	<legend style="color:blue;font-size:30px">Sales Management System</legend>
+            <label for="orderId">orderId:</label>
+        	<input type="text" name="orderId" id="orderId">
+			<label for="itemId">itemId:</label>
+            <input type="text" name="itemId" id="itemId">
+            <label for="customerId">customerId:</label>
+            <input type="text" name="customerId" id="customerId">
+            <label for="dateOrdered">dateOrdered:</label>
+            <input type="text" name="dateOrdered" id="dateOrdered">
+            <label for="quantity">quantity:</label>
+            <input type="text" name="quantity" id="quantity">
+            <label for="shippedDate">shippedDate:</label>
+            <input type="text" name="shippedDate" id="shippedDate">
+   </fieldset>
+            <input type="submit" value="Submit">
+        	<input type="reset" value="Reset">
+ </form>
+   </body>
+</html>

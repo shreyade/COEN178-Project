@@ -1,3 +1,3 @@
-## Sales Management Record System using SQL, PLSQL, and Relational Databases.
+## Sales Management Record System using SQL and Relational Databases.
 
 

@@ -1,1 +1,1 @@
-# COEN_178_Project
+# Sales Management Record System

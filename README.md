@@ -1,3 +1,4 @@
-## Sales Management Record System using SQL and Relational Databases.
+## Online Store
+E-commerce platform built with SQL and principles of relational databases.
 
 
